@@ -1,0 +1,1053 @@
+.sideNavBar {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContainer {
+  max-width: 100vw !important;
+  position: relative;
+}
+
+.mainContainer .col-10 {
+  /* max-width: 70rem; */
+}
+
+li a {
+  color: lightgray;
+  font-size: small;
+}
+
+i {
+  font-size: 1rem;
+}
+
+.secondaryMenu img {
+  margin-left: -2px !important;
+}
+
+.mainMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.secondaryMenu li a {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  align-items: center;
+}
+
+li a:hover {
+  color: black;
+  background: darkgray;
+}
+
+.likedSong {
+  width: 1rem;
+  height: 1rem;
+}
+
+.tertiaryMenu {
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.tertiaryMenu::-webkit-scrollbar {
+  background-color: rgb(157, 158, 158);
+  height: 5px;
+  width: 5px;
+}
+.tertiaryMenu::-webkit-scrollbar-thumb {
+  background-color: #53b82b;
+}
+.tertiaryMenu::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.footer-container {
+  background-color: #202020;
+}
+
+.footer-container .col-4 {
+  color: lightgray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-container .col-4 p {
+  margin-left: 0.4rem;
+  font-size: 0.75rem;
+}
+
+.footer-container .col-4 .Artist {
+  font-size: 0.6rem;
+}
+
+/* .footer-container .col-4 svg{
+    transform: scale(0.75);
+} */
+
+body {
+  background: rgb(102, 16, 5);
+  background: linear-gradient(180deg, rgb(83, 13, 4) 0%, rgb(0, 0, 0) 35%);
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.842) !important;
+}
+
+.arrowsAndDropdown {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 0.4rem;
+  right: 1rem;
+}
+
+.buttonLeft {
+  position: absolute;
+  top: 0.4rem;
+  left: 0rem;
+}
+
+.buttonRight {
+  position: absolute;
+  top: 0.4rem;
+  left: 4rem;
+}
+
+.recentPlayed-Section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* max-width: 67rem; */
+}
+
+#hero-section > h1 {
+  display: inline;
+  position: relative;
+}
+#hero-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#hero-section > .container-fluid {
+  padding-top: 20px;
+}
+#album > .card {
+  max-height: 200px;
+  max-width: 105px;
+  border: black;
+}
+
+#album .card img {
+  border-radius: 15%;
+}
+
+#hero-section img {
+  width: 108px;
+}
+
+.good-morning-cards,
+.recentlyPlayed-Cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.card {
+  border: 0;
+}
+
+/* .hero-section-borderless{
+  position: relative;
+}
+.hero-section-borderless .container-fluid{
+  position: absolute;
+  left:0;
+} */
+
+h4 {
+  color: white;
+}
+
+#imageSize {
+  width: 65px !important;
+  height: 65px !important;
+}
+
+#fontSize {
+  font-size: 11px !important;
+  position: absolute;
+  top: 26px !important;
+}
+
+/* div h5 {
+    position: absolute !important;
+    top:17px !important;
+} */
+
+.card {
+  background-color: rgba(41, 43, 44, 0.7) !important;
+}
+
+.card-body h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.good-morning-cards .card {
+  background-color: rgba(41, 43, 44, 0.7) !important;
+  max-width: 300px;
+}
+
+.recentlyPlayed-Cards .card {
+  background-color: rgba(41, 43, 44, 0.7) !important;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: black;
+}
+
+#profilePic {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+}
+
+#notRounded {
+  border-radius: 0% !important;
+}
+
+.seeAll1 {
+  /* position: absolute;
+    right: 108px;
+    top: 293px; */
+  color: white;
+  font-size: 13px;
+}
+
+.seeAll2 {
+  /* position: absolute;
+    right: 108px;
+    top: 590px; */
+  color: white;
+  font-size: 13px;
+}
+/* footer css - old */
+/* .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 55px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin-bottom: 0px;
+    z-index: 3;
+  }
+  
+  .footercontainer {
+    position: relative;
+  }
+  
+ 
+  
+  
+  #containerFooter {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  
+ 
+  
+  
+  
+  #footerHolder {
+    display: inline;
+  }
+  #footerHolder img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    max-height: 65px;
+    max-width: 65px;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+  
+  #volumeProgress {
+    position: absolute;
+    display: inline-block;
+    width: 5%;
+    max-height: 5px;
+    left: 1350px;
+    top: 40px;
+    background: white!important;
+    border-radius: 50px;
+  }
+  
+  #songName {
+    position: absolute;
+    top: 20px;
+    left: 87px;
+  }
+  
+  #songName h4 {
+    font-size: 10px;
+  }
+  
+  #songName h3 {
+    font-size: 11px;
+  }
+  
+  
+  #aviciiSize {
+      width: 50px;
+      height: 50px;
+  }
+  #cardMargin {
+      margin-bottom: 75px;
+  }
+  
+ 
+  #forwardInFooter{
+    border-radius: 50%;
+    background-color: transparent !important;
+    border: 0;
+  } */
+
+/* css for footer - new */
+
+.mediaPlayerFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #181818;
+  height: 5rem;
+}
+
+.mediaPlayerFooter .leftFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mediaPlayerFooter .middleFooter .col-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mediaPlayerFooter img {
+  height: 4rem;
+  width: 4rem;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  top: 0.5rem;
+}
+
+.mediaPlayerFooter .card {
+  background-color: #181818;
+}
+
+.currentPlayed {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ArtistAndSong {
+  display: block;
+}
+
+#footerButton {
+  margin-left: 0.3rem;
+  background-color: transparent;
+  border: 0;
+}
+
+#play i {
+  transform: scale(1.7);
+}
+
+progress::-webkit-progress-value {
+  background: rgb(131, 129, 129);
+  border-radius: 100px;
+}
+
+progress::-moz-progress-bar {
+  background: rgb(255, 255, 255);
+  border-radius: 100px;
+}
+
+progress::-webkit-progress-value {
+  background: rgb(255, 255, 255);
+  border-radius: 100px;
+}
+
+progress::-webkit-progress-bar {
+  background: rgb(131, 129, 129);
+  border-radius: 100px;
+}
+
+progress {
+  margin-top: 10px;
+  display: inline-block;
+  width: 30%;
+  max-height: 5px;
+  left: 490px;
+  top: 60px;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.rightFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.showsToTry {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* all svg */
+/* svg{
+      width: 0px;
+      height: 30px;
+  } */
+
+/* css for artist page */
+
+.jumbotron {
+  min-width: 100vw;
+  min-height: 20rem !important;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+  margin-bottom: 0;
+}
+
+.jumbotronContainer .artist img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  min-width: 100%;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.artist-info {
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+.artist-info p {
+  font-size: small;
+}
+
+.artist-info h1 {
+  font-weight: 900;
+}
+
+.hero-section {
+  margin-bottom: 6rem;
+}
+
+.hero-section-artist {
+  background: rgb(89, 89, 89);
+  background: linear-gradient(
+    180deg,
+    rgba(89, 89, 89, 1) 0%,
+    rgba(56, 56, 56, 1) 12%,
+    rgba(18, 18, 18, 1) 100%
+  );
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+}
+
+.buttonBox {
+  width: 3rem;
+  height: 3rem;
+  background-color: #00d95f;
+  border-radius: 50%;
+  position: absolute;
+  left: 1.5rem;
+  top: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.button.play {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-style: solid;
+  border-width: 0.75rem 0rem 0.75rem 1.5rem;
+  border-color: transparent transparent transparent white;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: absolute;
+  left: 0.9rem;
+  top: 0.75rem;
+  transition: all ease-in 0.01s;
+}
+
+.button.play:hover {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-style: double;
+  border-width: 0 0 0 0.9rem;
+  border-color: white;
+  background-color: transparent;
+  position: absolute;
+  left: 1.05em;
+  top: 0.8rem;
+}
+
+.button.pause {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-style: double;
+  border-width: 0 0 0 0.9rem;
+  border-color: white;
+  background-color: transparent;
+  position: absolute;
+  left: 1.05em;
+  top: 0.8rem;
+  transition: all ease-in 0.01s;
+}
+
+.button.pause:hover {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-style: solid;
+  border-width: 0.75rem 0rem 0.75rem 1.5rem;
+  border-color: transparent transparent transparent white;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: absolute;
+  left: 0.9rem;
+  top: 0.75rem;
+}
+
+.followButton {
+  position: absolute;
+  top: 1.9rem;
+  left: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.followButton button {
+  background: transparent !important;
+  border: 1px solid white;
+  color: white;
+}
+
+.followButton button:hover {
+  background: white !important;
+  color: black;
+}
+
+.followButton p {
+  font-weight: bold;
+}
+
+.artist-info.fa-certificate {
+  position: relative;
+}
+.fa-certificate {
+  color: #1c9cea;
+}
+
+.fa-check {
+  font-size: 0.4rem;
+  position: absolute;
+  left: 20px;
+  bottom: 6.1rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Album page CSS */
+
+.previous,
+.next {
+  opacity: 0.7;
+}
+
+#displaylyrics {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#album-body {
+  background-color: transparent !important;
+}
+
+#hero-container {
+  background: rgb(19, 19, 19);
+  background: rgb(184, 67, 152);
+  background: linear-gradient(
+    180deg,
+    rgba(184, 67, 152, 1) 6%,
+    rgba(158, 55, 129, 1) 50%,
+    rgba(55, 23, 45, 1) 83%
+  );
+  color: white;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous,
+.next {
+  background-color: #0a0a0a;
+  color: rgb(255, 253, 253);
+}
+
+.round {
+  border-radius: 50%;
+}
+#album-section > .container-fluid > .row > .col-4 {
+  padding-right: 0px;
+}
+#album-section > .container-fluid > .row > .col-4 > img {
+  max-width: 100%;
+  min-width: 150px;
+  min-height: 150px;
+  max-height: 100%;
+
+  margin-top: 25px;
+  margin-left: 10px;
+  position: absolute;
+  background-color: #571f47;
+}
+#album-section > .container-fluid > .row > .col-10 {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0%;
+}
+.display-4 {
+  letter-spacing: 1px;
+}
+#table-container {
+  padding: 0px;
+}
+#table-section > div > img {
+  height: 60px;
+  width: 60px;
+  margin-left: 45px;
+  margin-top: 20px;
+  padding: 2px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  display: inline;
+}
+#table-section > div {
+  background-color: #21151f;
+}
+
+.bi {
+  padding-left: 15px;
+}
+.bi-stopwatch {
+  padding-left: 0;
+}
+
+#table-section {
+  background: rgb(14, 14, 14);
+}
+#table-container > table {
+  background-color: black;
+}
+#table-container > table > tbody > tr:hover {
+  background-color: rgb(107, 98, 98);
+}
+
+#color1 {
+  height: 6rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: row;
+}
+#table-container > table > thead {
+  background-color: #141214;
+}
+#heart {
+  position: absolute;
+  left: 1.5rem;
+  top: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  display: inline;
+}
+#displaylyrics {
+  display: none;
+  width: 100%;
+  height: 50px;
+  padding: 50px 0;
+  text-align: center;
+
+  margin-top: 20px;
+}
+
+#scroll-container {
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 800px;
+  overflow: hidden;
+  background-image: url(./Asset/avici.jpeg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  color: rgb(244, 248, 248);
+}
+
+#scroll-text {
+  height: 100%;
+  text-align: center;
+
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 25s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateY(100%);
+  }
+  to {
+    -webkit-transform: translateY(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+/* #image-align{
+      position: relative;
+    } */
+
+#image-align img {
+  position: relative !important;
+  left: 0;
+  bottom: 10px;
+  object-fit: cover;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.albumTextContainer {
+  position: relative;
+}
+
+.display-7 {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* align-items: center;
+    
+     
+      /* css for artist page  */
+#artistTable {
+  /* position: absolute;
+        top: 100px;
+        left: 0px; */
+  font-size: 11px;
+}
+
+.queenTr:hover {
+  color: white !important;
+}
+
+/* #artistPick {
+        position: absolute;
+        top: 130px;
+        right: 240px !important;
+    } */
+
+#queenCard {
+  border-radius: 0% !important;
+  background-color: transparent !important;
+}
+
+#popular {
+  font-size: 18px;
+}
+
+#queenSize {
+  width: 30px;
+  height: 30px;
+}
+
+/* .position1 {
+        position: absolute;
+        top: 0px;
+    } */
+
+/* .position2 {
+        position: absolute;
+        top: 35px;
+    } */
+
+/* #artistPickSize {
+        position: absolute;
+        bottom: 73px;
+        right: 170px;
+        font-size: 18px;
+    } */
+
+/* #imageSizeQueen {
+        width: 55px;
+        height: 55px;
+    } */
+
+#imageSizeQueen {
+  object-fit: cover;
+}
+
+.queenBestOf p {
+  color: lightgray;
+}
+
+.queenBestOf .whiteText {
+  color: white;
+  font-weight: bold;
+}
+
+.artist-queenCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.transparentCard {
+  background-color: transparent !important;
+}
+
+.artistTableContainer {
+  position: relative;
+}
+
+.artistTableContainer .col-3 {
+  position: absolute;
+  top: 3rem;
+  right: 0.5rem;
+}
+
+.artistTableContainer {
+  position: relative;
+}
+
+#artistTable {
+  position: absolute;
+  top: 3rem;
+  left: 1.5rem;
+}
+#aviciiSize {
+  transition: 0.3s ease;
+}
+
+#aviciiSize:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+}
+
+#aviciiSize:hover {
+  -webkit-animation: spin 1s linear;
+  -moz-animation: spin 1s linear;
+  animation: spin 1s linear;
+}
+
+#artistTable {
+  position: absolute;
+  top: 3rem;
+  left: 1.5rem;
+}
+
+/* Sara's extra feature */
+
+#cardHover:hover {
+  background-color: rgba(73, 73, 73, 0.7) !important;
+}
+
+.bodyHover {
+  position: relative;
+}
+
+.playHover {
+  font-size: 40px;
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  visibility: hidden;
+  color: #55ba55;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(85, 186, 85, 1) 70%
+  );
+  border-radius: 50%;
+}
+
+.playHover2 {
+  font-size: 30px;
+  position: absolute;
+  left: 111px;
+  bottom: 12px;
+  visibility: hidden;
+  color: #55ba55;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(85, 186, 85, 1) 70%
+  );
+  border-radius: 50%;
+}
+
+#cardHover:hover .playHover {
+  visibility: visible;
+  body: linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%) !important;
+}
+
+#cardHover:hover .playHover2 {
+  visibility: visible;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+@-moz-keyframes spin {
+  100% {
+    -webkit-transform: rotate(45deg);
+  }
+}
+
+td {
+  transition: 0.4s ease;
+}
+
+td:hover {
+  transform: scale(1.06);
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+}
+
+#footerButton {
+  transition: 0.4s ease;
+}
+
+#footerButton:hover {
+  transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  -ms-transform: scale(1.6);
+}
+
+/* hovering effect - change background */
+/* .out {
+  opacity: 0;
+  transition: opacity  1s;
+} */
+.fa-heart {
+  margin-bottom: 40px;
+  transform: scale(1.2);
+}
+.leftFooter {
+  position: relative;
+}
+.leftFooter #fullscreen {
+  position: absolute;
+  right: -15px;
+  bottom: 22px;
+}
+
+#fullscreen i {
+  background-color: transparent !important;
+  color: white !important;
+  /* position: relative; */
+  /* top: 10px;
+  right: 60px; */
+}
+#fullscreenbutton {
+  background-color: transparent !important;
+  border: 0;
+  transform: scale(1.2);
+}

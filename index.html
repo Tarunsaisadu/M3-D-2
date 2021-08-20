@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Spotify-Homepage</title>
+  </head>
+
+  <body>
+
+
+    <div class="container-fluid mainContainer">
+        <div class="row">
+            <div class="col-2 sideNavBar pt-2 d-none d-sm-none d-md-block">
+                <!-- side nav bar  -->
+                    <div class="logo ml-1">
+                        <h4 class="text-white text-center">
+                            <img src="./Asset/spotify (2).png" alt="Spotify Logo" class="img-fluid">
+                            <h4 class="mx-2 px-0 d-none d-sm-none d-md-none d-lg-flex">Spotify</h4>
+                        </h4>
+
+                    </div>
+                    <div class="mainMenu mb-4 no-gutters">
+                        <ul class="nav flex-column">
+                            <!-- spotify icon not working - problem with font awesome -->
+                            <!-- <i class="fab fa-spotify"></i> -->
+                            <!-- home icon and text -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">
+                                  <i class="fas fa-home"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                              <a  class="nav-link active" href="artist.html"><i class="fas fa-microphone-alt"></i> Artist</a>
+                                  
+                            </li>
+                            <!-- search icon and text -->
+                            <li class="nav-item">
+                                
+                                <a class="nav-link" href="#">
+                                  <i class="fas fa-search"></i>
+                                    Search
+                                </a>
+                            </li>
+                            <!-- library icon and text -->
+                            <li class="nav-item">
+                                  <a class="nav-link" href="#">
+                                    <i class="fas fa-stream"></i>
+                                    Your Library
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="secondaryMenu no-gutters mb-4">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link plusSign" href="#">
+                                  <i class="far fa-plus-square mr-1"></i>
+                                    Create Playlist
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                      <img src="https://misc.scdn.co/liked-songs/liked-songs-300.png"
+                                      class="likedSong mr-1"
+                                      alt="liked song icon">
+                                    Liked Songs
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tertiaryMenu no-gutters">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Funky Heavy Bluesy
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Your Top Songs 2020
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    In Love With you - Erykah
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    This is Post Malone
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    This is Imagine Dragons
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    This is Avicii
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    New Playlist
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Dinner With Friends
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Meditation
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                  Winter Loneliness
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Summer Hits 
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              YOLO
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Morning Coffee
+                        </a>
+                    </li>
+                        </ul>
+                    </div>
+                    <div class="InstallApp">
+                      <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link">
+                            <i class="fas fa-arrow-circle-down"></i>
+                            Install App
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+            </div>
+            <div class="col-10">
+              <div class="pr-3 mt-3 container-fluid arrowsAndDropdown">
+                    <div class="row">
+                        <div class="col-12">
+                          <button class="ml-4 btn btn-dark badge-pill buttonLeft" >
+                            <!-- left arrow -->
+                            <i class="fas fa-chevron-left"></i>
+                          </button>
+                          <button class="ml-3 btn btn-dark badge-pill buttonRight">
+                              <!-- right arrow -->
+                              <i class="fas fa-chevron-right"></i>
+                          </button>
+                          <div class="dropdown d-none d-sm-block d-md-block">
+                              <button class="btn btn-dark badge-pill dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <img id="profilePic" src="https://afmnoco.com/wp-content/uploads/2019/07/74046195_s.jpg">
+                                  Username
+                              </button>
+                              <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item text-white" type="button">Account</button>
+                                <button class="dropdown-item text-white" type="button">Profile</button>
+                                <button class="dropdown-item text-white" type="button">Private Session</button>
+                                <button class="dropdown-item text-white" type="button">Settings</button>
+                                <div class="dropdown-divider">
+                          
+                                </div>
+                                <button class="dropdown-item text-white" type="button">Update Spotify now</button>
+                                <button onclick="location.href='login.html'" class="dropdown-item text-white" type="button">Log out</button>
+                              </div>
+                          </div>
+                        </div>
+
+                    </div>
+
+  <!-- </div>- Good morning Container | Sara's section -->
+   
+  <div class="container-fluid  goodmorningcontainer mt-3">
+    <h4 class="mt-5">Good morning</h4>
+    <button type="button" class="btn btn-outline-success" onclick="getlist()">
+       -
+    </button>
+    <div class="container">
+      <div class="row"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid mt-3">
+    <div class="row good-morning-cards">
+      <!-- card 1 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card card1 rounded border-0 text-white bg-dark mb-3" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+                <img id="imageSize" src="https://external-preview.redd.it/yDuwPIpC0F4vb33bmy6WiE-AjpywfibyoIh6m9UtsuQ.jpg?auto=webp&s=c5ffe4aed7b82c83b975293babfdd39ef36e641d" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Love Again</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <!-- card 2 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 83, 14) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+                <img onclick="location.href='album.html'" id="imageSize" src="https://misc.scdn.co/liked-songs/liked-songs-300.png" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Liked Songs</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 79) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+                <img id="imageSize" src="https://upload.wikimedia.org/wikipedia/en/a/ad/Joji_-_Run.png" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Run</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <!-- card 4 -->
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 35, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+            <img id="imageSize" src="data:image/jpeg;base64,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" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Still Woozy</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+        
+        <!-- card 5 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 43) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+                <img id="imageSize" src="https://static.qobuz.com/images/covers/wc/9p/fejhosb8b9pwc_50.jpg" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Longue Ride</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!-- card 6 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 78, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+                <img id="imageSize" src="https://c-cl.cdn.smule.com/rs-s-sf-1/arr/52/3b/b645e352-0d69-4a8a-bc0d-31506ebc62c3.jpg" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Chromatica</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!-- card 7 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(82, 83, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+                <img id="imageSize" src="https://static.qobuz.com/images/covers/17/62/3663729026217_50.jpg" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Romeo</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!-- card 8 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card rounded border-0 text-white bg-dark mb-2" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(25, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+            <div class="row no-gutters">
+              <div class="col-md-2">
+                <img id="imageSize" src="https://images-na.ssl-images-amazon.com/images/I/7128tY0BnEL._SY450_.jpg" class="rounded-left" alt="...">
+              </div>
+              <div class="col-md-10">
+                <div class="card-body bodyHover">
+                  <h5 id="fontSize" class="card-title ml-3">Ray of Light</h5>
+                  <h6 class="card-title ml-3"><i class="fas fa-play-circle playHover"></i></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+  </div>
+
+    <!-- Tarun's section  -->
+
+
+    <section class="hero-section-borderless mx-0">
+      <div class="recentPlayed-Section">
+        <h4 class="mt-2 mr-auto">Recently played</h4> 
+        <a class="seeAll1">SEE ALL</a>
+      </div>
+
+      <div class="container-fluid ml-n3">
+        <div class="row recentlyPlayed-Cards">
+          <!-- card 1 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 7 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 8 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 9 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 10 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 11 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 12 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+    </section>
+
+    <section id="hero-section-borderless mx-0">
+      <div class="showsToTry">
+        <div class="showsToTry-Left mr-auto">
+          <h4 class="mt-2 my-0">Shows to try</h4>
+          <small class="text-muted my-0">Podcasts we think you'll get hooked on.</small>
+        </div>
+        <div class="showsToTry-Right">
+          <a class="seeAll2">SEE ALL</a>
+        </div>
+      </div>
+
+      <div class="container-fluid ml-n3">
+        <!-- using the same card as in recently played section  -->
+        <div class="row recentlyPlayed-Cards">
+          <!-- card 1 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/8ab87bd6999d659eb282fbed00895d86.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Top Rock</strong> <br>
+                
+                  <small class="text-muted">Best and biggest rock hits.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/l.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Jazz</strong><br>
+                
+                  <small class="text-muted">Jazz classics for everyone.</small>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="col-sm-6 col-md-3 col-lg-2 mb-3">
+            <div class="card bg-dark border-dark">
+              <img
+                src="images/j.jpeg"
+                class="p-2"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Pop</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+    </section>
+              </div>
+            </div>
+        </div>
+    </div>
+<!--      footer container  -->
+<br>
+<br>
+<br>
+<br>
+<div class="container-fluid mediaPlayerFooter ">
+  <div class="row">
+    <div class="col-2 leftFooter d-none d-sm-none d-md-flex">
+      <!-- horizontal Card - currently played Song -->
+            <div class="currentlyPlayed">
+                <img src="https://i.pinimg.com/originals/f2/fd/1a/f2fd1a3d428b6a0b1389e66c98451f44.jpg"
+                class="img-fluid"
+                id="aviciiSize">
+            </div>
+            <div class="currentPlayedSongInfo ml-2 mt-3">
+              <p class="card-text my-0">Wake Me Up</p>
+              <p class="card-text my-0"><small class="text-muted">Avicii</small></p>
+            </div>
+            <div id="heart">
+              <button id="footerButton">
+                <i class="far fa-heart text-white"></i>
+              </button>
+            </div>
+    </div>
+    <div class="col-8 middleFooter mt-2">
+      <div class="col-12 mt-2">
+        <div id="shuffle">
+          <button id="footerButton">
+            <i class="fas fa-random text-white"></i>
+          </button>
+        </div>
+
+        <div id="backward">
+          <button id="footerButton">
+            <i class="fas fa-step-backward text-white"></i>
+          </button>
+        </div>
+
+        <div id="play">
+          <button id="footerButton">
+            <i class="fas fa-play-circle text-white"></i>
+        </button>
+        </div>
+
+        <div id="forward">
+          <button id="footerButton">
+            <i class="fas fa-step-forward text-white"></i>
+          </button>
+        </div>
+
+        <div id="repeat">
+          <button id="footerButton">
+            <i class="fas fa-redo-alt text-white"></i>
+          </button>
+        </div>
+      
+      </div>
+      <div class="col-12">
+        <p id="minute1" class="mx-2 my-2">1:32</p>
+        <progress class="mx-2 my-2" id="file" max="190" value="80" fill="white"></progress>
+        <p id="minute2" class="mx-2 my-2">2:34</p>
+      </div>
+    </div>
+    <div class="col-2 rightFooter mt-4 d-none d-sm-none d-md-flex">
+        <div id="queue">
+          <button id="footerButton">
+            <i class="fas fa-list text-white"></i>
+          </button>
+        </div>
+
+        <div id="device">
+          <button id="footerButton">
+            <i class="fas fa-laptop text-white"></i>
+          </button>
+        </div>
+
+        <div id="volume" class="mr-1">
+          <button id="footerButton">
+            <i class="fas fa-volume-up text-white"></i>
+          </button>
+        </div>
+        
+        <progress id="volumeProgress" max="90" value="50" fill="white"></progress>
+        
+    </div>
+
+  </div>
+</div>
+
+    <script src="index.js"></script>
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+    </body>
+</html>

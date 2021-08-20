@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)file:///C:/Users/ASUS/Downloads/index%20(2).html -->
+<html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Login</title>
+    <!-- /* font awesome */ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- own css -->
+
+    <style>
+        /* h1 {
+            font-size: 35px;
+        }
+        
+        h2 {
+            font-size: 13px;
+            margin-left: 20px;
+        }
+        
+        h3 {
+            font-size: 13px;
+        }
+        
+        .first h3 {
+            font-size: 13px;
+            color: white;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .first div {
+            border-radius: 20px;
+            justify-content: center;
+        }
+        
+        /* facebook login button */
+        /* .first .col-sm-6 {
+            background-color: #3E5A9B;
+            width: 90px;
+            height: 40px;
+            margin-top: 15px;
+        }
+        
+        .first i {
+            margin-left: 10px;
+            margin-top: 10px;
+            color: rgb(242, 242, 247);
+            border-radius: 20px;
+        }
+        
+        .second h4 {
+            font-size: 13px;
+            color: white;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .second div {
+            border-radius: 20px;
+            justify-content: center;
+        }
+        
+        .second .col-sm-6 {
+            background-color: rgb(8, 8, 19);
+            width: 60px;
+            height: 40px;
+            margin-top: 15px;
+        }
+        
+        .second i {
+            margin-left: 10px;
+            margin-top: 10px;
+            color: rgb(242, 242, 247);
+            border-radius: 20px;
+        }
+        
+        h4 {
+            font-size: 13px;
+        }
+        
+        h7:before,
+        h7:after {
+            background-color: #000;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 30%;
+        }
+        
+        h7:before {
+            right: 0.5em;
+            margin-left: -50%;
+        }
+        
+        h7:after {
+            left: 0.5em;
+            margin-right: -50%;
+        }
+        
+        .fourth input {
+            width: 240px;
+            height: 35px;
+            font-size: 12px;
+            margin-top: 20px;
+            margin-left: 0px;
+            position: relative;
+        }
+        
+        .fourth i {
+            margin-top: -20px;
+            margin-left: 210px;
+            position: absolute;
+        }
+        
+        .five input {
+            width: 240px;
+            height: 35px;
+            font-size: 12px;
+            margin-top: 15px;
+            margin-left: 0px;
+        }
+        
+        .six ::placeholder {
+            color: white;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        .six input[type=text] {
+            border: 1px solid rgb(113, 224, 22);
+            border-radius: 15px;
+            background-color: #2d993c;
+            width: 110px;
+            margin-top: 15px;
+            margin-left: 13px;
+        }
+        
+        .six input[type=checkbox] {
+            margin-left: 7px;
+        }
+        
+        .seven span {
+            font-size: 13px;
+            color: rgb(47, 116, 64);
+            margin-top: 20px;
+        }
+        
+        .seven {
+            margin-top: 20px;
+        }
+        
+        .eight hr {
+            border: 0.5px 0px solid rgb(227, 230, 230);
+            height: 6px;
+        }
+        
+        .nine span {
+            font-size: 12px;
+        }
+        
+        .ten span {
+            font-size: 12px;
+        }
+        
+        h1 {
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .ten .col-3 {
+            border-radius: 10px;
+            border-style: solid;
+            border-color: rgb(134, 130, 130);
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .eleven p {
+            font-size: 10px;
+            color: rgb(71, 69, 69);
+        } */ 
+        .spotifyLogo{
+            text-align: center;
+        }
+        .btn-facebook{
+            background-color: #3E5A9C;
+        }
+        .btn-apple, .btn-facebook, .btn-spotify{
+            border-radius: 25px;
+
+
+        }
+
+        .btn-spotify{
+            border: 1px solid black;
+
+        }
+
+        .btn-apple{
+            background: #000000;
+        }
+
+        .lineORline{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            position: relative;
+            justify-content: space-between;
+        }
+
+        .checkBoxAndLogin{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .loginButton{
+            background-color:#47B751;
+        }
+
+        .loginButton{
+            border-radius: 20px ;
+            padding-left: 50px ;
+            padding-right: 50px ;
+            padding-top: 8px ;
+            padding-bottom: 8px ;
+
+        }
+
+        .continueText h6{
+            font-weight: bold;
+        }
+        
+        .btn{
+            font-size: 0.8rem;
+            font-weight:bold;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            
+        }
+
+        .forgotPassword p{
+            color: #47B850;
+        }
+
+        .noAccount p{
+            font-weight: bold;
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid mt-3">
+            <!-- spotify logo and text -->
+        <div class="row justify-content-center spotifyLogo">
+            <div class="col-sm-3 col-md-4 col-lg-3">
+                <h1><i class="fab fa-1x fa-spotify" aria-hidden="true"></i><strong>  Spotify</strong></h1>
+            </div>
+        </div>
+        <hr>
+        <!-- login fb & apple -->
+        <!-- <div class="row justify-content-center">
+            <div class="col-sm-3 col-md-6 col-lg-3">
+                <h2 class="text-center">To Continue, Log into Spotify.</h2>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <!-- empty container -->
+            <div class="col">
+            </div>
+            <!-- actual content here -->
+            <div class="col-4 continueText">
+                <h6 class="text-center">To continue, log into Spotify.</h6>
+                <!-- facebook login -->
+                <button type="button" class="btn btn-primary btn-facebook btn-lg btn-block">
+                    <i class="fab fa-facebook"></i>
+                    CONTINUE WITH FACEBOOK</button>
+                <!-- apple login -->
+                <button type="button" class="btn btn-apple btn-lg btn-block text-white">
+                        <i class="fab fa-apple"></i>
+                        CONTINUE WITH APPLE</button>
+                <!-- horizontal line and "or" -->
+                <div class="or ">
+                   <div class="row lineORline d-none d-sm-none d-md-flex">
+                       <div class="col-5">
+                            <hr>
+                       </div>
+                       <div class="col-2 orText">
+                            <p class="text-center mt-3">OR</p>
+                       </div>
+                       <div class="col-5">
+                            <hr>
+                       </div>
+                   </div>
+                </div>
+                <!-- email address and password-->
+                <div class="emailAndPassword mt-2">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" id="email" placeholder="Email address or username" aria-label="Recipient's username"
+                        aria-describedby="basic-addon2">
+                    </div>
+                    <!-- deal with the lock icon later -->
+                    <!-- <i class="fas fa-lock"></i> -->
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" id="password" placeholder="Password" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    </div>
+                </div>
+                <!-- remember me check box and spotify login -->
+                <div class="checkBoxAndLogin">
+                    <div class="checkBox mr-1 mb-2 mr-auto d-none d-sm-none d-md-flex">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Remember Me
+                            </label>
+                        </div>
+                    </div>
+                    <div class="login text-right">
+                        <button type="button" class="btn loginButton text-white"onclick="authenticate()" >Login</button>
+                    </div>
+                </div>
+                <!-- forgot your password -->
+                <div class="forgotPassword text-center mt-4 mb-5">
+                    <p>Forgot your password?</p>
+                </div>
+
+                <!-- horizontal line -->
+                <div >
+                    <hr>
+                </div>
+
+                <!-- Don't have an account -->
+                <div class="noAccount mt-5">
+                    <p class="text-center">Don't have an account?</p>
+                </div>
+
+                <!-- Sign up Button -->
+                <button type="button" class="btn btn-spotify btn-outline-success btn-block">
+                SIGN UP FOR SPOTIFY</button>
+                
+                <br>
+                <hr>
+                <div class="termsAndCondition">
+                    <p class="text-center text-muted" style="font-size: small;">If you click "Login with Facebook" and are not a Spotify user, you will be registered and you agree to Spotify's <a href="https://example.com/" style="color: #47B751;">Terms and Conditions </a> and <a href="https://example.com/" style="color: #47B751;"> Privacy Policy</a>.
+                    </p>
+                </div>
+                <!-- end of container -->
+            </div>
+            <!-- empty container -->
+            <div class="col">
+            </div>
+        </div>
+
+        <script>
+             function authenticate(){
+                 let x = document.getElementById('email').value;
+                //  let y = ValidateEmail(x);
+                 if(true==true){
+                     let p= document.getElementById('password').value;
+                     if(x=='spotify@example.com'&& p=='mypassword'){
+                          window.location.replace('index.html');
+                     }else{
+                         window.alert('enter valid email or password')
+                     }
+                 }else{
+                      window.alert('enter valid email')
+                 }
+
+                  
+             }
+//              function ValidateEmail(mail) 
+// {
+//  if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(myForm.emailAddr.value))
+//   {
+//     return (true)
+//   }
+   
+//     return (false)
+// }
+        </script>
+    <script src="./login_files/ceb4b94ff8.js.download" crossorigin="anonymous"></script>
+
+    <script src="./login_files/jquery-3.5.1.slim.min.js.download" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./login_files/bootstrap.bundle.min.js.download" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
